@@ -1,0 +1,86 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  cursor:grab;
+}
+
+.items_wrapper {
+  display: flex;
+  flex-direction: row;
+  border: 2px gray solid;
+  padding: 50px;
+  min-height: 60px;
+  min-width: 150px;
+  border-radius: 10px;
+}
+
+.items_wrapper_bot {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.board {
+  margin: 50px;
+  min-width: 250px;
+  min-height: 60px;
+  border-radius: 10px;
+  padding: 50px;
+  border: 5px green solid;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: aquamarine;
+}
+
+.buttons_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_wrapper {
+  margin-left: 25px;
+}
+
+
+.input {
+  background-color: white;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.custominput {
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.custominput:hover {
+  background-color: aquamarine;
+}
